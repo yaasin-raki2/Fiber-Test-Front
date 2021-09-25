@@ -5,6 +5,7 @@ import App from "./App";
 import axios from "axios";
 
 axios.defaults.baseURL = "http://localhost:8000/api/admin/";
+axios.defaults.withCredentials = true;
 
 ReactDOM.render(
     <React.StrictMode>
